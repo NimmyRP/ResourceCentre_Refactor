@@ -2,8 +2,10 @@ import java.util.ArrayList;
 
 public class ResourceCentre {
 
-
-	private static final int Option_View = 1;
+/*after re-factor*/
+	
+	
+	
 	private static final int OPTION_QUIT = 5;
 	public static void main(String[] args) {
 
@@ -23,7 +25,7 @@ public class ResourceCentre {
 			option = Helper.readInt("Enter an option > ");
 
 			
-			if (option == Option_View) {
+			if (option == 1) {
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
