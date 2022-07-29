@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+//Resource center demo workflow
+
 public class ResourceCentre {
 
 /*after re-factor*/
